@@ -1,0 +1,69 @@
+{
+  "name": "react-payments",
+  "version": "1.0.0",
+  "description": "<p align=\"middle\" >   <img src=\"https://techcourse-storage.s3.ap-northeast-2.amazonaws.com/0fefce79602043a9b3281ee1dd8f4be6\" width=\"400\"> </p> <h2 align=\"middle\">Level2 - 페이먼츠</h2> <p align=\"middle\">React 모바일 페이먼츠 애플리케이션</p> </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "prebuild": "rimraf dist",
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "test": "jest --watch",
+    "format": "prettier --check ./src",
+    "format:fix": "prettier --write --config ./.prettierrc './src/**/*.{ts,tsx}'",
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtle601/react-payments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turtle601/react-payments/issues"
+  },
+  "homepage": "https://github.com/turtle601/react-payments#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-root-import": "^6.6.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "ts-loader": "^9.4.3",
+    "tslint": "^6.1.3",
+    "tslint-react": "^5.0.0",
+    "typescript": "^5.1.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
+    "styled-components": "^5.3.10"
+  }
+}
