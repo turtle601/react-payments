@@ -38,7 +38,8 @@
     "plugin:jsx-a11y/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "prettier" // eslint + prettier 충돌 해결
   ],
   "ignorePatterns": ["dist", "public", "webpack.config.js"],
   "rules": {
