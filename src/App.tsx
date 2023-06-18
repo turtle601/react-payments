@@ -6,6 +6,7 @@ const App = () => (
 	<BrowserRouter>
 		<Routes>
 			<Route path="/" element={<MyCardPage />} />
+			<Route path="/register" element={<div>register</div>} />
 		</Routes>
 	</BrowserRouter>
 );
