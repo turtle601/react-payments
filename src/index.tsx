@@ -6,9 +6,9 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
-		<GlobalFontStyles />
-		<GlobalStyle />
-		<App />
-	</React.StrictMode>,
+  <React.StrictMode>
+    <GlobalFontStyles />
+    <GlobalStyle />
+    <App />
+  </React.StrictMode>,
 );

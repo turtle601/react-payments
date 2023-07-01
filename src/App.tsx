@@ -3,9 +3,9 @@ import { Routes } from 'react-router-dom';
 import Root from '~/routes/Root';
 
 const App = () => (
-	<Root>
-		<Routes />
-	</Root>
+  <Root>
+    <Routes />
+  </Root>
 );
 
 export default App;
