@@ -31,10 +31,10 @@ module.exports = {
 	// webpack은 배열의 앞에서부터 파일을 해석하고 남은 것은 해석하지 않습니다.
 	// webpack resolve에 대한 자세한 내용: https://webpack.kr/configuration/resolve/
 	resolve: {
+		extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
 		alias: {
-			'@': path.resolve(__dirname, 'src'),
+			'~': path.resolve(__dirname, 'src'),
 		},
-		extensions: ['.tsx', '.ts', '.jsx', '.js', 'json'],
 	},
 
 	// React파일인 jsx, js는 babel을 이용하여 빌드합니다.

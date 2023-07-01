@@ -44,7 +44,6 @@
   "ignorePatterns": ["dist", "public", "webpack.config.js"],
   "rules": {
     "no-console": "error",
-    "indent": [2, "tab"],
     "no-tabs": 0,
     "import/extensions": ["error", "ignorePackages", {
       "js": "never",

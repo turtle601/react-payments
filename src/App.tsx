@@ -1,14 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MyCardPage from '@/pages/MyCardPage';
+import { Routes } from 'react-router-dom';
+import Root from '~/routes/Root';
 
 const App = () => (
-	<BrowserRouter>
-		<Routes>
-			<Route path="/" element={<MyCardPage />} />
-			<Route path="/register" element={<div>register</div>} />
-		</Routes>
-	</BrowserRouter>
+	<Root>
+		<Routes />
+	</Root>
 );
 
 export default App;
